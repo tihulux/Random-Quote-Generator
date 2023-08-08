@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(219, 209, 61);
+}
+
+.textBox {
+  background: white;
+  width: 800px;
+  border-radius: 16px;
+  padding: 30px 30px 25px;
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+  margin: 35px 0;
+}
+
+.container h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.author span:first-child {
+  font-family: monospace;
+  margin: -5px 2px 0 0;
+}
+
+.author .authorName {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.newQuote {
+  font-size: 30px;
+  background: rgb(197, 188, 60);
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  outline: none;
+  padding: 13px 22px;
+  font-family: cursive;
+}
